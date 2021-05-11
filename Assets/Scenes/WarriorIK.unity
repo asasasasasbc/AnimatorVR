@@ -6496,7 +6496,7 @@ MonoBehaviour:
     Button A: Key the current frame\nRight Button B: Clear the current frame\nRight
     Thumbstick Left/Right: Rotate view\nRight Thumbstick Up/Down: Save/Load Selected
     Object Location\nRight Thumbstick Press: Change The Transform Mode \nRight Trigger:
-    Select Object\nRight Grip: Grab And Tranform The Selected Object"
+    Select Object/Click Button\nRight Grip: Grab And Tranform The Selected Object"
 --- !u!222 &508171461
 CanvasRenderer:
   m_ObjectHideFlags: 0
