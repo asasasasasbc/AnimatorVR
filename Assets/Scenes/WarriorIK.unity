@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 4976960052830884dafa35ac7855f1d9, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: a7ca3511ff6fb744fad2f8e8f609469b, type: 2}
   m_LightingSettings: {fileID: 718186555}
 --- !u!196 &5
 NavMeshSettings:
@@ -4652,6 +4652,7 @@ MonoBehaviour:
   player: {fileID: 337194530}
   anim: {fileID: 467462824}
   sizeText: {fileID: 0}
+  videoName: RefVideo.mp4
 --- !u!328 &337194530
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -4670,7 +4671,7 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 0
   m_AudioOutputMode: 0
   m_TargetAudioSources:
@@ -21778,6 +21779,7 @@ MonoBehaviour:
   player: {fileID: 0}
   anim: {fileID: 0}
   sizeText: {fileID: 1894657181}
+  videoName: 
 --- !u!1 &2080497199
 GameObject:
   m_ObjectHideFlags: 0

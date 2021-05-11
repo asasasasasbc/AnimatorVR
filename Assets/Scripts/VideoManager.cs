@@ -7,10 +7,15 @@ public class VideoManager : MonoBehaviour
     public UnityEngine.Video.VideoPlayer player;
     public AnimManager anim;
     public UnityEngine.UI.Text sizeText;
+    public string videoName = "";
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (videoName.Length >0 )
+        {
+            player.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoName);
+            player.Play();
+        }
     }
 
     // Update is called once per frame
